@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body class="container"> 
+<body> 
     <!--шапка сайта-->
     <header class="header-navigation">
-      <div class="container">
-          <nav class="navigation">
+          <nav class="navigation container">
             <a class="logo link" href="./index.html" lang="en"><span class="logo-blue">Web </span>Studio</a>
               <ul class="navigation-list list">
                   <li class="navigation-list-item">
@@ -27,67 +26,76 @@
               </ul>
           <div class="header-utils">
           <address class="address list">
-            <ul>
-             <li class="header-address-list">
+            <ul class="auth-nav list">
+             <li class="navigation-list-item">
                <a class="header-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
              </li>
-             <li class="header-address-list">
+             <li class="navigation-list-item">
                <a class="header-tel-link link" href="tel:+380961111111">+380961111111</a>
              </li>
            </ul>
           </address>
           </div>
           </nav>
-      </div>
     </header>
     <main>
       <!--Герой-->
        <section class="hero">
-         <div class="container" >
           <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
           <button class="hero-title-button">Заказать услугу</button>
-         </div>
        </section>
         
         <!--Наши преимущества-->
-       <section class="about-us">
-        <h2 class="main-title" hidden>Наши преимущества</h2>
-         <ul class="about-us-title list">
-           <li>
-             <h3 class="about-us-title-list">Внимание к деталям</h3>
-             <p class="subtitle">
-               Идейные соображения, а также начало повседневной работы по формированию позиции.
-             </p>
-           </li>
-           <li>
-             <h3 class="about-us-title-list">Пунктуальность</h3>
-             <p class="subtitle">
-               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-             </p> 
-           </li> 
-           <li>
-             <h3 class="about-us-title-list">Планирование</h3>
-             <p class="subtitle">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-             </p>
-           </li>
-           <li>
-             <h3 class="about-us-title-list">Современные технологии</h3>
-             <p class="subtitle">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-             </p>
-           </li>
-         </ul>
+       <section class="about-us list">
+         <div class="container">
+           <h2 class="main-title" hidden>Наши преимущества</h2>
+           <div class="container">
+             <ul class="about-us-title list">
+               <li>
+                <h3 class="about-us-title-list">Внимание к деталям</h3>
+                <p class="subtitle">
+                   Идейные соображения, а также начало повседневной работы по формированию позиции.
+                </p>
+               </li>
+               </div>
+               <div class="container" >
+               <li>
+                 <h3 class="about-us-title-list">Пунктуальность</h3>
+                 <p class="subtitle">
+                   Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+                 </p> 
+               </li> 
+               </div>
+                <div class="container" >
+               <li>
+                 <h3 class="about-us-title-list">Планирование</h3>
+                 <p class="subtitle">
+                  Равным образом консультация с широким активом в значительной степени обуславливает.
+                 </p>
+               </li>
+                </div>
+               <div class="container">
+               <li>
+                 <h3 class="about-us-title-list">Современные технологии</h3>
+                 <p class="subtitle">
+                  Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                 </p>
+               </li>
+              </ul>
+            </div>
+          </div>
        </section>
+      
 
         <!--чем занимаемся-->
-        <section class="services">
+        <section class="services list">
+          <div class="container">
           <h2 class="main-title">Чем мы занимаемся</h2>
-          <ul class="services-list list">
+           <ul class="services-list list">
             <li class="services-box">
                <img class="services-img" src="./img/applications.jpg" alt="изображение ноутбука" width="370" height="294">
                <h3 class="services-title">Десктопные приложения</h3>
-            </li>
+            </li> 
             <li class="services-box">
                <img class="services-img" src="./img/box(1).jpg" alt="изображение телефона" width="370" height="294">
                <h3 class="services-title">Мобильные приложения</h3>
@@ -97,11 +105,12 @@
                <h3 class="services-title">Дизайнерские решения</h3>
             </li>
           </ul>
+          </div>
         </section>
 
           <!--Команда--> 
-          <section class="our-team container">
-            <div class="container-team">
+          <section class="our-team">
+            <div class="container">
             <h2 class="main-title">Наша команда</h2>
             <ul class="social-list list">
               <li class="our-team-box">
@@ -188,33 +197,35 @@
           <!--Наши клиенты-->
           <section>
             <h2 class="main-title">Постоянные клиенты</h2>
+            <div class="container">
             <ul class="our-clients list">
               <li class="our-clients-logo">
-                <a class="our-clients-link link" href=""><img src="./img/Client1.svg" alt="логотип клиента" width="218" height="118"></a>
+                <a class="our-clients-link link" href=""><img src="./img/Client1.svg" alt="логотип клиента" width="170" height="87"></a>
               </li>
               <li class="our-clients-logo">
-                <a class="our-clients-link link" href=""><img src="./img/client2.svg" alt="логотип клиента" width="218" height="118"></a>
+                <a class="our-clients-link link" href=""><img src="./img/client2.svg" alt="логотип клиента" width="170" height="87"></a>
               </li>
               <li class="our-clients-logo">
-                <a class="our-clients-link link" href=""><img src="./img/Client3.svg" alt="логотип клиента" width="218" height="118"></a>
+                <a class="our-clients-link link" href=""><img src="./img/Client3.svg" alt="логотип клиента" width="170" height="87"></a>
               </li>
               <li class="our-clients-logo">
-                <a class="our-clients-link link" href=""><img src="./img/Client4.svg" alt="логотип клиента" width="218" height="118"></a>
+                <a class="our-clients-link link" href=""><img src="./img/Client4.svg" alt="логотип клиента" width="170" height="87"></a>
               </li>
               <li class="our-clients-logo">
-                <a class="our-clients-link link" href=""><img src="./img/Client5.svg" alt="логотип клиента" width="218" height="118"></a>
+                <a class="our-clients-link link" href=""><img src="./img/Client5.svg" alt="логотип клиента" width="170" height="87"></a>
               </li>
               <li class="our-clients-logo">
-                <a class="our-clients-link link" href=""><img src="./img/Client6.svg" alt="логотип клиента" width="218" height="118"></a>
+                <a class="our-clients-link link" href=""><img src="./img/Client6.svg" alt="логотип клиента" width="170" height="87"></a>
               </li>
             </ul>
-
+            </div>  
           </section>
     </main>
 
     <footer>
       <!--контактная инфо-->
-     <div class="contacts">
+      <section class="footer">
+     <div class="container">
          <h2 hidden>контактная информация</h2>
         <a class="contacts-logo link" href="./index.html" lang="en"><span class="contacts-logo-blue link">Web</span>Studio</a>
            <ul class="contacts-list list">
@@ -227,8 +238,7 @@
              <li class="contacts-list-item">
                <a class="contacts-tell link" href="tel:+380961111111">+380961111111</a>
             </li>
-           </ul>
-     </div>
+           </ul>                  
      <div class="invitation">
        <b class="footer-title">присоединяйтесь</b>
        <ul class="footer-social-list list">
@@ -246,7 +256,8 @@
         </li>
        </ul>
      </div>
-
+    </div>
+  </section>
     </footer>
 
 </body>
