@@ -17,6 +17,12 @@
     margin: 0;
     padding: 0;
   }
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
   body{
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
@@ -71,9 +77,6 @@
       display: flex;
     }
 
-    .auth-nav .navigation-list-item + .navigation-list-item {
-      margin-left: 30px;
-    }
 
 
 
@@ -91,7 +94,10 @@
  
 
     .link {text-decoration: none;}
-    .list {list-style: none;}
+    .list{
+      list-style: none;
+      padding: 0px;
+      margin: 0px;}
     
     .logo
     {
@@ -153,8 +159,9 @@
       text-align: center;
       background-color: #2F303A;
       height: 600px;
-      width: 1630px;
+      min-width: 1200px;
       margin-bottom:95px;
+      padding-top: 200px;  
       
     }
     
@@ -164,9 +171,8 @@
     line-height: 1.36;
     color: #FFFFFF;
     margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 200px; 
-    padding-bottom: 40px; 
+    margin-bottom: 30px;
+    
     
     }
     
@@ -200,7 +206,12 @@
     
     
      /* оформлени наши преимущества */ 
-    
+     .about-us-title {
+      display: inline-block;
+    display: flex;
+     }
+     
+
     .about-us-title-list {
     font-weight: bold;
     font-size: 14px;
@@ -210,6 +221,8 @@
     color: #212121;
     margin-bottom: 15px;
     }
+
+
     .subtitle
     {
     font-weight: normal;
