@@ -39,12 +39,11 @@
     margin-left: auto;
     margin-right: auto;
     }
-
-    .our-team {
-    background-color: #AFB1B8;
-    width: 1620px;
-    }
-    
+     
+    /*.our-team {
+      background-color: #AFB1B8;
+      width: 1620px;
+      }*/
 
     /* оформление шапки */
 
@@ -208,7 +207,7 @@
      /* оформлени наши преимущества */ 
      .about-us-title {
       display: inline-block;
-    display: flex;
+      display: flex;
      }
      
 
@@ -248,17 +247,20 @@
     }
     
     /* оформлени чем занимаемся */
-    .services {
+    .services{
     display: inline-block;
     display: flex;
     text-align: center;
     margin-bottom: 95px;
-      
     align-items: center;
     justify-content:space-between ;
-    
     }
+    
+   
 
+    .our-team-box-img {
+      margin-bottom: 30px;
+    }
     .services .main-title {
       margin-bottom: 50px;
     }
@@ -320,11 +322,9 @@
       {
       font-weight: 500;
       color: #212121;
-      padding-top: 20px;
       padding-left: 56px; 
       padding-right: 56px;
-      padding-bottom: 10px;
-       
+      margin-bottom: 10px;
     }
 
     .our-team-box:not(:last-child)
@@ -332,19 +332,20 @@
     }
      
     .our-team-box-profession {
-      padding-bottom: 85px;
-      
+      margin-bottom: 84px;
     }
 
     .our-team .container {
       margin-bottom: 95px;
+     
+      
     } 
 
     .our-team {
     background-color: #F5F4FA;
     display: flex;
     text-align: center;
-    width: 1630px;
+    min-width: 1200px;
     padding-top: 105px;
       }
 
@@ -364,10 +365,13 @@
     padding-top: 20px;
     }
     
+  
+
     .our-clients {
       display: flex;
       text-align: center;
       margin-bottom: 95px; 
+
     }
     .our-clients-logo:not(:last-child)
     {margin-right: 30px;}
@@ -377,23 +381,31 @@
     /* оформлени контактная инфо */
 
     .footer {
-      width: 1630px;
-      height: 262px;
-      background-color: #2F303A;
-      padding-top: 60px; 
+      min-width: 1200px;
+      min-height: 262px;
+      background-color: #2F303A; 
     }
 
     .footer.container{
       width: 280px;
       margin-right: 44px;
     }
-
+    
+    .contacts-mail, .contacts-tell{
+      color: #FFFFFF;
+    }
 
     .invitation {
       text-align: center;
       
     }
     
+    .our-contacts-list {
+      display: flex;
+      
+    }
+
+
     .contacts-logo
     {
     font-family: Raleway;
@@ -402,13 +414,12 @@
     line-height: 1.19; 
     letter-spacing: 0.03em;   
     color: #FFFFFF;
-
-    padding-top: 60px;
     }
     
     .contacts-logo-blue
     {
-    color: #2196F3
+    color: #2196F3;
+    margin-right: 11px;
     }
     
     .address
@@ -432,13 +443,18 @@
     
     .contacts-list {
       width: 231px;
-      margin: 0px;
-      padding-top: 20px;
-  
+      margin-right: 84px;
+      margin-top: 60px;
       
     }
-    
-    .footer-title{
+
+   .footer-social-list{
+    margin-top: 72px;
+   }
+
+   
+
+    .footer-title {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.143;
@@ -468,8 +484,6 @@
     
     .filtr {
       display: inline-block;
-      margin-left: 494px;
-      margin-right: 494px;
       margin-bottom: 50px;
       display: flex;
     }
@@ -505,7 +519,7 @@
     letter-spacing: 0.03em;
     color: #757575; }
     
-    .galery-list-first
+    /* .galery-list-first 
     {
     font-family: Roboto;
     font-style: normal;
@@ -520,6 +534,7 @@
     left: 254px;
     top: 316px;
     }
+    */
     
     .galery {
     display: flex;
@@ -539,7 +554,7 @@
     /*
     
     
-
+/**/
 
     /*outline: 1px solid tomato ;*/
     
