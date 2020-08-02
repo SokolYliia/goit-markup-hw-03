@@ -48,10 +48,8 @@
     /* оформление шапки */
 
     .navigation {
-    display: flex;
-    align-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
+      display: flex;
+      align-items: center;
     }
 
     .navigation-list{
@@ -66,12 +64,13 @@
       border-bottom: 1px solid #ECECEC;
       margin-left: auto;
       margin-right: auto;
+      display: flex;
+     align-items: center;
+      justify-content: space-between;
       }
 
-    .header-utils {
-    margin-left: auto;
-    display: flex;
-    }
+    
+
     .auth-nav {
       display: flex;
     }
@@ -525,8 +524,9 @@
     /* оформлени портфолио фильтр */
     
   .portfolio{
-    display: inline-block;
     display: flex;
+
+
   }
    
     .filtr-list-button
@@ -548,9 +548,10 @@
   
    
     .filtr {
-      margin-bottom: 50px;
-      display: flex;
-      justify-content: center;
+    display: flex;
+    padding-top: 93px;
+    justify-content: center;
+    padding-bottom: 50px;
     }
     
 
@@ -560,10 +561,15 @@
     background-color:#2196F3
     }
     
-    .galery-list 
-    {
-    width: 380px;}
-
+    
+    .galery-list:not(:nth-last-child(-n + 3)) {
+      margin-bottom: 30px;
+     
+  }
+     
+.galery-list:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
     .galery-title{
     font-weight: bold;
     font-size: 18px;
@@ -596,16 +602,13 @@
     }
     */
     
-    .galery {
-    display: flex;
-    flex-wrap: wrap;
- 
-    }
+
+
 
     .galery:nth-child(3n)
     {margin-right: 0px;}
 
-    .galery { margin-right: 30}
+    
 
     
   .social-list-icon{
@@ -619,7 +622,12 @@
   .team-icon {
     fill: #AFB1B8;
     width: 20px;
-    height: 20px;
-/**/
+    height: 20px;}
 
 
+    .galery {
+      display: flex;
+      flex-wrap: wrap;
+     padding-bottom: 94px;
+      }
+      
