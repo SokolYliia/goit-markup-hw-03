@@ -41,7 +41,6 @@
      .section {
        padding-top: 92px ;
        padding-bottom: 92px ;
-       display: block;
        display: flex;
      }
     
@@ -193,7 +192,6 @@
         line-height: 1.167;
         text-align: center;
         letter-spacing: 0.03em;
-        margin-bottom: 50px;
       }
 
      /* оформлени наши преимущества */ 
@@ -332,9 +330,7 @@ padding-bottom: 24px;
     color: #757575; 
     }
 
-   .services-img {
-     margin-bottom: 30px;
-   }
+   
 
     /* оформлени постоянные клиенты */
     
@@ -506,11 +502,6 @@ padding-bottom: 24px;
 }
     /* оформлени портфолио фильтр */
     
-  .portfolio{
-    display: flex;
-
-
-  }
    
     .filtr-list-button
     {
@@ -532,9 +523,8 @@ padding-bottom: 24px;
    
     .filtr {
     display: flex;
-    padding-top: 93px;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     }
     
 
