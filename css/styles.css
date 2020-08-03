@@ -155,6 +155,12 @@
     height: 600px;
     background-color: #2F303A;
     }
+     
+    .main.container{
+      background: #2F303A;
+     
+    }
+
 
     .hero{
       text-align: center; 
@@ -502,6 +508,9 @@ padding-bottom: 24px;
 }
     /* оформлени портфолио фильтр */
     
+  .portfolio{
+    display: flex;
+  }
    
     .filtr-list-button
     {
