@@ -552,12 +552,14 @@ padding-bottom: 24px;
 .galery-list:not(:nth-child(3n)) {
   margin-right: 30px;
 }
+
     .galery-title{
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    
     }
     
     .galery-subtitle 
@@ -610,6 +612,7 @@ padding-bottom: 24px;
     .galery {
       display: flex;
       flex-wrap: wrap;
-     padding-bottom: 94px;
+      padding-bottom: 94px;
+      justify-content: center;
       }
       
