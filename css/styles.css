@@ -546,11 +546,10 @@ padding-bottom: 24px;
     
     .galery-list:not(:nth-last-child(-n + 3)) {
       margin-bottom: 30px;
-     
   }
      
-.galery-list:not(:nth-child(3n)) {
-  margin-right: 30px;
+     .galery-list:not(:nth-child(3n)) {
+     margin-right: 30px;
 }
 
     .galery-title{
@@ -593,17 +592,15 @@ padding-bottom: 24px;
     {margin-right: 0px;}
 
     
-
-    
-  .social-list-icon{
+    .social-list-icon{
     display: flex;
     margin-top: 16px;
     margin-bottom: 24px;
     justify-content: space-around;
-  }
+    }
     
 
-  .team-icon {
+    .team-icon {
     fill: #AFB1B8;
     width: 20px;
     height: 20px;}
@@ -614,5 +611,6 @@ padding-bottom: 24px;
       flex-wrap: wrap;
       padding-bottom: 94px;
       justify-content: center;
+      width: 1200px;
       }
       
